@@ -1,4 +1,5 @@
-from odoo.odoo.tests.common import TransactionCase
+# noinspection PyUnresolvedReferences
+from odoo.tests.common import TransactionCase
 
 
 class TestBook(TransactionCase):
@@ -20,5 +21,5 @@ class TestBook(TransactionCase):
 
 	def test_check_isbn(self):
 		"Check valid ISBN"
-		self.assertTrue(self.book1.__check__isbn)
+		self.assertTrue(self.book1._check_isbn)
 

@@ -10,6 +10,7 @@
     "category": "Services/Library",
     "data": [
         "security/library_security.xml",
+        "security/ir.model.access.csv",
         "views/library_menu.xml",
     ],
 }
